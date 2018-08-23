@@ -23,10 +23,6 @@ Inception-ResNet-v2 | 与Inception-v4网络的原始成本相匹配
 
 
 
-
-
-
-
 ## Comparisons
 Item | AlexNet | VGGNet | GoogLeNet | ResNet 
 -----|---------|--------|-----------|-------
