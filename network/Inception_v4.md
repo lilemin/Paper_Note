@@ -20,6 +20,18 @@ Item | Computetional cost
 Inception-ResNet-v1 | 大致是Inception-v3的计算成本
 Inception-ResNet-v2 | 与Inception-v4网络的原始成本相匹配
 
+**3. 残差的缩放**
+
+## Training Methodology
+Tensorflow | Replicas | Optimator | Learning rate 
+-----------|----------| ----------|-------------
+distributed machine learning system | 20 | RMSProp of decay factor 0.9 | 0.045 decay_rate=0.094 epochs=2 
+
+##  Experimental Results
+
+
+
+
 
 
 
@@ -28,3 +40,5 @@ Item | AlexNet | VGGNet | GoogLeNet | ResNet
 -----|---------|--------|-----------|-------
 Parameter numbers | 60 million | 180 million |5 million 
 
+https://chenzomi12.github.io/2016/12/13/CNN-Architectures/
+https://www.zhihu.com/question/50370954
